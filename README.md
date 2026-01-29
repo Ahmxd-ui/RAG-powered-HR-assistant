@@ -99,7 +99,7 @@ AI Response:
 ## 🧩 RAG Pipeline Architecture
 
 This project follows a Modern LangChain LCEL (LangChain Expression Language) workflow:
-Code snippet
+```Code snippet
 
 graph TD;
     A[PDF Resumes] -->|PyPDFLoader| B[Text Chunks];
@@ -108,7 +108,7 @@ graph TD;
     C -->|Top 5 Context Matches| E[Prompt Template];
     E -->|Context + Question| F[Gemini 2.5 Flash];
     F --> G[Recruiter Recommendation];
-
+```
 ## 💡 Key Features
 
     Semantic Search: Finds candidates based on meaning, not just keywords (e.g., "AI Expert" will find "Machine Learning Engineer").
