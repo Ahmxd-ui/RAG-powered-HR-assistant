@@ -39,15 +39,16 @@ The goal is to build a system that:
 Note: The resumes folder is where you place your candidate PDFs.
 ```Plaintext
 
-ai-resume-assistant/
+RAG_hr_assistant/
 ├── app.py                 # Frontend (Gradio Web Interface)
 ├── backend.py             # RAG Logic & Chain Definition
 ├── setup_database.py      # Script to ingest PDFs into ChromaDB
-├── check_models.py        # Utility to verify API model access
+├── processed_files.txt    # Log of resumes that have already been embedded
 ├── .env                   # API Keys (Not included in repo)
 ├── .gitignore             # Git exclusion rules
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
+├── chroma_db_data/        # Vector Database storage (Auto-generated)
 └── resumes/               # Folder for PDF resumes
 ```
 ## 🚀 How to Run
