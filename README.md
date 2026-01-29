@@ -37,7 +37,7 @@ The goal is to build a system that:
 ## 📂 Project Structure
 
 Note: The resumes folder is where you place your candidate PDFs.
-Plaintext
+```Plaintext
 
 ai-resume-assistant/
 ├── app.py                 # Frontend (Gradio Web Interface)
@@ -49,7 +49,7 @@ ai-resume-assistant/
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
 └── resumes/               # Folder for PDF resumes
-
+```
 ## 🚀 How to Run
 1. Clone the Repository
 ```Bash
